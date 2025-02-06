@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build",
+    "build": "rm -rf docs && slidev build --base /decompiled-lightning-frontend-sql-slides/ && mv dist docs",
     "dev": "slidev --open",
     "export": "slidev export"
   },

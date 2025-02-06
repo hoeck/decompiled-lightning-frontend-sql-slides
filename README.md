@@ -1,11 +1,7 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+lightning talk for [Decompiled 25](https://decompiled.de)
 
-To start the slide show:
+build with `npm run build` then commit & push.
 
-- `pnpm install`
-- `pnpm dev`
-- visit <http://localhost:3030>
+[view the slides](https://hoeck.github.io/decompiled-lightning-frontend-sql-slides)
 
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev at the [documentation](https://sli.dev/).
+made with [Slidev](https://github.com/slidevjs/slidev)
