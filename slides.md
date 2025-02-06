@@ -49,17 +49,17 @@ on windows desktop CRM software
 
 - uhh cyka blyat that was almost 20 years ago
 
-- world was different
+- FOR ME, world was DIFFERENT
 
-- architecture back then:
+- ARCHITECTURE back then:
   - database server in your office
   - windows desktop app that connects to that db
   - when working out in the field / visiting customers:
     - local db (no internet back then)
     - syncs (replicates) to the main db once your're back in the office
 
-- that was already outdated / legacy back then
-  - the web platform took over
+- that was already OUTDATED / legacy back then
+  - the WEB PLATFORM TOOK OVER
     - so much easier to just open a webpage than to
       - install a (expensive, licensed) database
       - install a windows executable with all its dependencies
@@ -67,7 +67,9 @@ on windows desktop CRM software
       - ...
   - first all was rendered on the server
     - because early browsers where not good at running javascript
+
   - that all got better and more stuff was moved into the frontend
+
   - but was relatively limited in contrast to desktop apps
     - so you send only that part of the data that the client needs and not the whole database
     -> REST APIs
@@ -88,12 +90,14 @@ on windows desktop CRM software
 
 <!--
 
-- web sql (stopped/abandoned in 2011)
+- WEB SQL (stopped/abandoned in 2011)
   - only chrome implemented this
-- it was actually possible to have sqlite in your browser for years
-  - emscripten, ppl compliled everything to js
+- it was actually POSSIBLE to have SQLITE in your browser for years
+  - EMSCRIPTEN, ppl compliled everything to js
   - huge "binaries", slow
+
 - there were other problems that needed to be solved (APIs, Backend Frameworks, Frontend Frameworks, UIs)
+
 - also SQL was not cool, it was old tech and NOSQL was a hype for some time
 
 Web SQL [Stopped 2011]
@@ -120,22 +124,25 @@ https://caniuse.com/sql-storage
 
 - fast foward to '25:
 
-- meanwhile SQL went from  "don't ever use it again for anything ever again" to "proven tech that has its uses and places where it does not work well"
+- NOSQL -> SQL is OK
+  - meanwhile SQL went from  "don't ever use it again for anything ever again" to "proven tech that has its uses and places where it does not work well"
 
-- web clients are more capable than ever
+- web clients are MORE CAPABLE THAN EVER
   - actually chrome, nobody seems to use anything else any more
   - we can run stuff in the background: service workers
   - we have a low level intermediate language to compile: WASM
   - we have more state than ever being dealt with in the client
 
-- but we're still using APIs to move state to the frontend
+- REST but we're still using APIs to move state to the frontend
 
-- some event argue that we should go back to early web days of rendering everything in the backend (htmx)
+- state is mostly held in CUSTOM DATA STRUCTURES: lists, objects, Maps, Sets
+
+- HTMX some event argue that we should go back to early web days of rendering everything in the backend (htmx)
   - even for highly interactive apps
 
 - what about the opposite: go back another few years to revive the tried and proven two tier architecture for the frontend?
 
-- these where all thoughts I had but then
+-> THOUGHTS these where all thoughts I had but then
 
 -->
 
@@ -163,6 +170,8 @@ https://github.com/snaplet/postgres-wasm
 - I managed to send stuff to it bytewise but
 - bitrot: the demo is long gone
 - just a demo, couldn't easily install this
+
+
 
 -->
 
@@ -399,6 +408,43 @@ const MyComponent = () => {
 - you can go as far as pglite does and ...
 - write inline SQL !!!
 - WTF that is some heavy 90s shit
+-> 4th GL Programming languages / 90slow code
+
+-->
+
+---
+
+# 90s shit (digression)
+
+&nbsp;
+
+![inline sql](./embedded_sql.gif)
+
+<!--
+
+- inline sql
+
+-->
+
+---
+
+# 90s shit (digression)
+
+&nbsp;
+
+![powerbuilder](./powerbuilder-2022.png)
+
+<!--
+
+- almost getting PTSD from that
+- I'm so thankful I don't have to use that stuff any more
+- we came a long way
+  - no real source control
+  - no real types
+  - no real architecture besides: stick it in the db
+  - not even a hashmap
+  - fixed size arrays only
+  - closed ecosystem
 
 -->
 
