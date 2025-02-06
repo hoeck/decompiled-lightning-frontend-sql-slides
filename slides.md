@@ -480,7 +480,7 @@ they might make some things easier than before
 
 welcome a new <mdi-hammer/> in your toolbelt
 
-**SQL** was already old when I started coding, I still use it 20yrs later
+**SQL** was already old when I started coding, 20yrs later and it looks well alive.
 
 ---
 
@@ -493,10 +493,18 @@ colorSchema: light
 
 &nbsp;
 
+[github.com/hoeck](https://github.com/hoeck)
+
 [heavygoods.net/en/news/job-full-stack-developer](heavygoods.net/en/news/job-full-stack-developer)
+
+[dresdenjs.io](https://dresdenjs.io)
 
 <!--
 
-The place I work at is looking for a senior fullstack developer.
+BTW The place I work at is looking for a senior fullstack developer.
+
+- monthly chit chat @ dresdenjs
+
+- slides are on github
 
 -->
